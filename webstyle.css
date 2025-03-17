@@ -1,0 +1,114 @@
+/* COLORS */
+:root {
+    --baba-black: rgb(8, 8, 8);
+    --baba-pink:#D9396A;
+    --blue-button-fill:#202850;
+    --blue-button-outline:#4759B1;
+    --purple-button-fill:#402A46;
+    --purple-button-outline:#8E5E9C;
+    --pink-button-fill:#621A30;
+    --pink-button-outline:#D9396A;
+    --grey-button-fill:#343434;
+    --grey-button-outline:#737373;
+    --yellow-start-game: #EDE285;
+    --orange-play-levels: #FFBD47;
+}
+
+@font-face {
+    font-family: UIText;
+    src: url(Fonts/ui.ttf);
+}
+
+/* BASIC */
+body {
+    margin-left: 25vw;
+    margin-right: 25vw;
+    font-family: Verdana;
+    font-size: 16;
+    color: white;
+    background: var(--baba-black);
+}
+
+/* NAV BAR */
+nav{
+    text-align: center;
+}
+
+nav a {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: var(--blue-button-fill);
+    color: #fff;
+    text-decoration: none;
+    border: 3px solid var(--blue-button-outline);
+    border-radius: 4px;
+}
+
+nav a:hover {
+    background-color: var(--blue-button-outline);
+}
+
+.selected-button{
+    background-color: var(--pink-button-fill);
+    border: 3px solid var(--pink-button-outline);
+}
+
+.selected-button:hover{
+    background-color: var(--pink-button-outline);
+}
+
+/* CONTAINERS */
+.blackdiv{
+    background-color: var(--baba-black);
+    border: 3px solid white;
+    border-radius: 4px;
+    margin: 0px;
+}
+
+.bluediv{
+    background-color: var(--blue-button-fill);
+    border: 3px solid var(--blue-button-outline);
+    border-radius: 4px;
+    margin: 0px;
+}
+
+/* IMAGES */
+.babalogo {
+    display: block; 
+    margin: 0 auto;
+    width: auto;
+    height: 144px;
+}
+
+.by {
+    display: block; 
+    margin: 0 auto;
+    width: auto;
+    height: 52px;
+}
+
+.pagetitle {
+    display: block; 
+    margin: 0 auto;
+    width: auto;
+    height: 52px;
+}
+
+.pageobject {
+    display: block;
+    margin: 0 auto;
+    width: auto;
+    height: 144px;
+}
+
+/* TEXT */
+/* .center {
+    text-align: center;
+} */
+
+.sectiontext {
+    font-family: UIText;
+    text-align: left;
+    font-size: 36px;
+    margin: 0px
+}
