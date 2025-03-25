@@ -27,8 +27,12 @@ body {
     font-family: Verdana;
     font-size: 20;
     color: white;
-    background: var(--baba-black);
-    background: url(background3.png) repeat center center;
+    background-color: var(--baba-black);
+    /* background: url(background3.png) repeat top center; */
+    background-position-y: top;
+    background-position-x: center;
+    background-image: url(background3.png);
+    background-repeat: repeat;
 }
 
 /* NAV BAR */
