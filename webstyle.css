@@ -67,13 +67,17 @@ nav a:hover {
 
 .blackdiv{
     background-color: var(--baba-black);
-    /* border: 3px solid white;
-    border-radius: 4px; */
     margin: 0px;
 }
 
 .blackdiv p{
     margin-left: 10px;
+}
+
+.leveldiv{
+    margin: 50px auto;
+    width: 37vw;
+    display: block;
 }
 
 .bluediv{
@@ -169,9 +173,26 @@ nav a:hover {
 }
 
 /* TEXT */
-/* .center {
+
+h1 {
+    font-family: UIText;
+    font-size: 48px;
+    margin: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     text-align: center;
-} */
+    font-weight: normal;
+}
+
+h2 {
+    font-family: UIText;
+    text-align: left;
+    font-size: 36px;
+    margin: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: normal;
+}
 
 .sectiontext {
     font-family: UIText;
@@ -182,6 +203,31 @@ nav a:hover {
     margin-bottom: 10px;
 }
 
+.titletext {
+    font-family: UIText;
+    text-align: left;
+    font-size: 52px;
+    margin: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.errortext {
+    font-family: UIText;
+    text-align: left;
+    font-size: 36px;
+    margin: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.buttontext {
+    margin: 0px;
+    margin-top: 6px;
+}
+
 .codetext {
     font-family: UIText;
     text-align: left;
@@ -189,4 +235,16 @@ nav a:hover {
     margin: 0px;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+/* LISTS */
+.levellist a{
+    font-family: UIText;
+    text-decoration: underline;
+    color: white;
+}
+
+.levellist a:hover{
+    text-decoration: underline;
+    color: var(--baba-pink);
 }
