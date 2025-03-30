@@ -154,6 +154,8 @@ nav a:hover {
 }
 
 .level{
+    height: auto;
+    width: 37vw;
     border: 3px solid var(--blue-button-outline);
     border-radius: 4px;
     display: block;
