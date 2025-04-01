@@ -238,8 +238,18 @@ h2 {
 }
 
 /* LISTS */
+.levellist{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 3 columns */
+    list-style: none;
+    padding: 0;
+    /* column-gap: 40px; */
+    row-gap: 10px;
+}
+
 .levellist a{
     font-family: UIText;
+    /* font-size: 12; */
     text-decoration: underline;
     color: white;
 }
