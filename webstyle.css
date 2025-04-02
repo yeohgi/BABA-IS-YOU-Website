@@ -35,6 +35,14 @@ body {
     background-repeat: repeat;
 }
 
+p {
+    line-height: 2;
+}
+
+li{
+    line-height: 2;
+}
+
 /* NAV BAR */
 nav{
     margin-top: 20px;
@@ -228,6 +236,20 @@ h2 {
     margin-top: 6px;
 }
 
+.link {
+    /* font-family: UIText; */
+    text-decoration: underline;
+    color: var(--baba-pink);
+}
+
+.link:hover{
+    color: var(--yellow-start-game);
+}
+
+a.link:visited{
+    color: var(--orange-play-levels);
+}
+
 .codetext {
     font-family: UIText;
     text-align: left;
@@ -255,6 +277,6 @@ h2 {
 }
 
 .levellist a:hover{
-    text-decoration: underline;
     color: var(--baba-pink);
 }
+
