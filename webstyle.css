@@ -31,7 +31,7 @@ body {
     /* background: url(background3.png) repeat top center; */
     background-position-y: top;
     background-position-x: center;
-    background-image: url(background3.png);
+    background-image: url(images/background3.png);
     background-repeat: repeat;
 }
 
@@ -41,6 +41,24 @@ p {
 
 li{
     line-height: 2;
+}
+
+.floatingbutton {
+    right: 10vw;
+    bottom: 10px;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--blue-button-fill);
+    color: #fff;
+    text-decoration: none;
+    border: 3px solid var(--blue-button-outline);
+    border-radius: 4px;
+}
+
+.floatingbutton:hover {
+    background-color: var(--blue-button-outline);
 }
 
 /* NAV BAR */
