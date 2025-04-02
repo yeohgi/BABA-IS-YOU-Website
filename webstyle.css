@@ -236,18 +236,19 @@ h2 {
     margin-top: 6px;
 }
 
-.link {
-    /* font-family: UIText; */
-    text-decoration: underline;
-    color: var(--baba-pink);
+.link:visited{
+    color: var(--orange-play-levels);
+    font-style: italic;
 }
 
 .link:hover{
     color: var(--yellow-start-game);
 }
 
-a.link:visited{
-    color: var(--orange-play-levels);
+.link {
+    /* font-family: UIText; */
+    text-decoration: underline;
+    color: var(--baba-pink);
 }
 
 .codetext {
