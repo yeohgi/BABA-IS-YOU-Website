@@ -47,6 +47,7 @@ li{
     right: 10vw;
     bottom: 10px;
     position: fixed;
+    display: flex;
     justify-content: center;
     align-items: center;
 
@@ -76,6 +77,10 @@ nav a{
     text-decoration: none;
     border: 3px solid var(--blue-button-outline);
     border-radius: 4px;
+}
+
+nav a img {
+    display: block;
 }
 
 nav a:hover {
@@ -116,6 +121,7 @@ nav a:hover {
 /* BUTTONS */
 .bababutton{
     display: inline-block;
+    vertical-align: middle;
     padding: 10px 15px;
     background-color: var(--blue-button-fill);
     color: #fff;
