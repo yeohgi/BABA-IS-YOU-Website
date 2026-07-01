@@ -116,6 +116,7 @@ nav a:hover {
 /* BUTTONS */
 .bababutton{
     display: inline-block;
+    vertical-align: middle;
     padding: 10px 15px;
     background-color: var(--blue-button-fill);
     color: #fff;
