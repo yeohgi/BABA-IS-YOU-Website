@@ -79,6 +79,10 @@ nav a{
     border-radius: 4px;
 }
 
+nav a img {
+    display: block;
+}
+
 nav a:hover {
     background-color: var(--blue-button-outline);
 }
