@@ -6,8 +6,8 @@
 // once the DOM is ready. Multi-hyphen sprites (arrow-o-white, bird-o-pink) don't
 // fit the scheme — write those as literal <img> tags.
 (function () {
-    var TEXT = new Set("a all and b baba box c defeat door empty facing fall flag float ghost grass group has hot is key lava lonely make melt more move not on open phantom pull push right rock shift shut sink skull sleep stop swap tele text up wall water weak win word you".split(" "));
-    var OBJ = new Set("baba box door flag ghost grass keke key lava me rock skull wall water".split(" "));
+    var TEXT = new Set("a all and b baba box c defeat door empty facing fall flag float ghost grass group has hot is key lava lonely make me melt moon more move not on open phantom pull push right rock shift shut sink skull sleep stop sun swap tele text up wall water weak win word you".split(" "));
+    var OBJ = new Set("baba box door flag ghost grass keke key lava me moon rock skull sun wall water".split(" "));
     var TOKEN = /\[([a-z]+)(-o)?\]/gi;
 
     function sprite(base, isObj) {
